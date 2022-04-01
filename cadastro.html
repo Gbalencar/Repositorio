@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><h2> Formulário de novo usuário </h2></p>
+<form action="" method="post">
+    <table>
+        <tr>
+            <td><label for ="nome" >Nome</label></td> 
+            <td><input type="text" id="nome" required="true"></td> 
+        </tr>
+        <tr>
+            <td><label for ="sobrenome">Sobrenome</label></td> 
+            <td><input type="text" id="sobrenome" required="true"></td> 
+        </tr>
+        <tr>
+            <td><label for ="endereco">Endereço</label></td> <td><textarea name="endereco" id="endereco" cols="30" rows="5" required="true"></textarea></td> 
+        </tr>
+        <tr>
+            <td><label for ="disciplinas">Disciplinas</label></td> 
+            <td>
+            <input type="checkbox" id="1" name="prog" value="prog">
+            <label for="1"> Programação</label><br>
+            <input type="checkbox" id="2" name="log" value="log">
+            <label for="2"> Lógica</label><br>
+            <input type="checkbox" id="3" name="alg" value="alg">
+            <label for="3">Algoritmos</label><br>
+            <input type="checkbox" id="4" name="banco" value="banco">
+            <label for="4"> Banco de dados</label><br>
+            <input type="checkbox" id="5" name="mobile" value="mobile">
+            <label for="5"> Mobile</label>
+            </td>
+        </tr>
+        <td>
+        <td><label for ="genero">Genêro</label>
+            <input type= "radio" id="6" name="masc" value="masc">
+            <label for="6">Masculino</label>
+            <input type= "radio" id="7" name="femi" value="femi">
+            <label for="7">Feminino</label>
+            <input type= "radio" id="8" name="nid" value="nid">
+            <label for="8">Não informar</label>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <label for ="idade">Idade</label>
+                <select name="idade" id="idade"></select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for ="ft">Foto do perfil</label>
+                <input type="button" onclick="alert('Foto')" value=" Foto">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="document.location='cadastro.html'">Cadastrar</button>
+                <button onclick="document.location='index.html'">Limpar</button>
+            </td>
+        </tr>
+        
+
+    
+    </table>
+</form>
+</body>
+</html>
